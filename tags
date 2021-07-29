@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+FLAGS	Makefile	/^FLAGS=`pkg-config --cflags --libs libdrm`$/;"	m
+_GNU_SOURCE	dis_app.c	/^#define _GNU_SOURCE$/;"	d	file:
+all	Makefile	/^all:$/;"	t
+bufs	dis_app.c	/^	struct modeset_buf bufs[2];$/;"	m	struct:modeset_dev	typeref:struct:modeset_buf[2]	file:
+conn	dis_app.c	/^	uint32_t conn;$/;"	m	struct:modeset_dev	typeref:typename:uint32_t	file:
+crtc	dis_app.c	/^	uint32_t crtc;$/;"	m	struct:modeset_dev	typeref:typename:uint32_t	file:
+fb	dis_app.c	/^	uint32_t fb;$/;"	m	struct:modeset_buf	typeref:typename:uint32_t	file:
+front_buf	dis_app.c	/^	unsigned int front_buf;$/;"	m	struct:modeset_dev	typeref:typename:unsigned int	file:
+handle	dis_app.c	/^	uint32_t handle;$/;"	m	struct:modeset_buf	typeref:typename:uint32_t	file:
+height	dis_app.c	/^	uint32_t height;$/;"	m	struct:modeset_buf	typeref:typename:uint32_t	file:
+main	dis_app.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+map	dis_app.c	/^	uint8_t *map;$/;"	m	struct:modeset_buf	typeref:typename:uint8_t *	file:
+mode	dis_app.c	/^	drmModeModeInfo mode;$/;"	m	struct:modeset_dev	typeref:typename:drmModeModeInfo	file:
+modeset_buf	dis_app.c	/^struct modeset_buf{$/;"	s	file:
+modeset_cleanup	dis_app.c	/^static void modeset_cleanup(int fd)$/;"	f	typeref:typename:void	file:
+modeset_create_fb	dis_app.c	/^static int modeset_create_fb(int fd,struct modeset_buf *dev){$/;"	f	typeref:typename:int	file:
+modeset_destroy_fb	dis_app.c	/^static void modeset_destroy_fb(int fd,struct modeset_buf *buf){$/;"	f	typeref:typename:void	file:
+modeset_dev	dis_app.c	/^struct modeset_dev{$/;"	s	file:
+modeset_draw	dis_app.c	/^static void modeset_draw(int fd)$/;"	f	typeref:typename:void	file:
+modeset_find_crtc	dis_app.c	/^static int modeset_find_crtc(int fd,drmModeRes *res,drmModeConnector *conn,struct modeset_dev *d/;"	f	typeref:typename:int	file:
+modeset_list	dis_app.c	/^static struct modeset_dev *modeset_list=NULL;$/;"	v	typeref:struct:modeset_dev *	file:
+modeset_open	dis_app.c	/^static int modeset_open(int *out,const char *node){$/;"	f	typeref:typename:int	file:
+modeset_prepare	dis_app.c	/^static int modeset_prepare(int fd){$/;"	f	typeref:typename:int	file:
+modeset_setup_dev	dis_app.c	/^static int modeset_setup_dev(int fd,drmModeRes *res,drmModeConnector *conn,struct modeset_dev *d/;"	f	typeref:typename:int	file:
+next	dis_app.c	/^	struct modeset_dev *next;$/;"	m	struct:modeset_dev	typeref:struct:modeset_dev *	file:
+next_color	dis_app.c	/^static uint8_t next_color(bool *up, uint8_t cur, unsigned int mod)$/;"	f	typeref:typename:uint8_t	file:
+saved_crtc	dis_app.c	/^	drmModeCrtc *saved_crtc;$/;"	m	struct:modeset_dev	typeref:typename:drmModeCrtc *	file:
+size	dis_app.c	/^	uint32_t size;$/;"	m	struct:modeset_buf	typeref:typename:uint32_t	file:
+stride	dis_app.c	/^	uint32_t stride;$/;"	m	struct:modeset_buf	typeref:typename:uint32_t	file:
+width	dis_app.c	/^	uint32_t width;$/;"	m	struct:modeset_buf	typeref:typename:uint32_t	file:
